@@ -11,11 +11,11 @@
     });
 
 
-//  it('Closing the Cookie banner', ()=>{
-//    cy.get('.iubenda-cs-container').should('be.visible')
-//    cy.wait(300)
-//    cy.get('.iubenda-cs-btn-primary').contains('Accept').click()
-//  })
+ it('Closing the Cookie banner', ()=>{
+    cy.get('.iubenda-cs-container').should('be.visible')
+    cy.wait(300)
+    cy.get('.iubenda-cs-btn-primary').contains('Accept').click()
+  })
 
 
  /*   it('Test to check the address in the header', ()=>{
