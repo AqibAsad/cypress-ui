@@ -17,7 +17,11 @@
     cy.get('.iubenda-cs-btn-primary').contains('Accept').click()
   })
 
+it("PRinting valuues", ()=>{
+  cy.get('.iubenda-cs-container').should('be.visible')
 
+
+})
  /*   it('Test to check the address in the header', ()=>{
      cy.get('.address-area').find('img').should('be.visible').and('have.attr', 'src').and('include', 'map-marker-alt.png')
      cy.get('.address').should('be.visible').and('contain', "16 Station Square, Petts Wood,Orpington, BR5 1NA")
